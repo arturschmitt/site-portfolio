@@ -1,0 +1,130 @@
+.image{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    border-color: #6272A4;
+    border-style: solid;
+    border-width: 6px;
+    align-content: center;
+    margin-right: 22px;
+}
+
+.intro-sec{
+    text-align: center;
+    
+    display: block;
+}
+
+.intro-sec button{
+    padding: 12px;
+    margin-top: 30px;
+    font-size: 16px;
+    border:none;
+    border-radius: 6px;
+    background-color: #0a0b0e;
+    color: #F8F8F2;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.intro-sec button:hover{
+    background-color: #0e1014;
+}
+
+.intro{
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+}
+
+.intro ul{
+    margin-top: 18px;
+    margin-left: 38px;
+}
+
+.intro li:not(:last-child){
+    margin-bottom: 12px;
+}
+
+.tecnologias{
+    margin-top: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #0a0b0e;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.tecnologias h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.tecnologias-imgs div{
+    text-align: center;
+    width: 200px;
+    max-height: 500px;
+}
+
+
+.tecnologias-imgs div h3{
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+.tecnologias-imgs img{
+    width: 200px;
+    height: 200px;
+}
+
+.tecnologias-imgs{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.contato{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.contato h2{
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+.contato ul{
+    list-style-type: none;
+}
+
+.contato li:not(:last-child){
+    margin-bottom: 12px;
+}
+
+@media only screen and (max-width: 800px) {
+    
+    .image{
+        display: block;
+        margin: auto;
+        width: 250px;
+        height: 250px;
+    }
+    
+    .intro{
+        display: block;
+    }
+
+    .intro h2{
+        margin-top: 20px;
+    }
+
+    .intro ul{
+        margin-left: 0px;
+    }
+}

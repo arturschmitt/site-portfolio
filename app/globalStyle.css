@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1d1d25;
+    color: #F8F8F2;
+}
+
+main{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 140px;
+    padding-bottom: 40px;
+}
+
+.link-style{
+    text-decoration: none;
+    color:unset;
+
+}
+
+@media only screen and (max-width: 800px) {
+    main{
+        padding-top: 110px;
+    }
+}
