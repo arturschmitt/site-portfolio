@@ -5,3 +5,7 @@ footer{
     padding-top: 80px;
     padding-bottom: 80px;
 }
+
+footer h1{
+    margin-bottom: 20px;
+}

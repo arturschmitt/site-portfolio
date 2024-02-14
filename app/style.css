@@ -10,9 +10,10 @@
 }
 
 .intro-sec{
-    text-align: center;
     
-    display: block;
+    min-height: calc(100vh - 140px);
+    display: flex;
+    justify-content: center;
 }
 
 .intro-sec button{
@@ -37,6 +38,7 @@
     margin-left: 10%;
     margin-right: 10%;
     text-align: left;
+
 }
 
 .intro ul{
@@ -118,6 +120,8 @@
     
     .intro{
         display: block;
+        position: relative;
+        margin-top: 20px;
     }
 
     .intro h2{
