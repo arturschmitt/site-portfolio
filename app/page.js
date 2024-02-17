@@ -23,7 +23,7 @@ export default async function Home() {
                 <li>Desenvolvedor Web</li>
                 <li>Morando em Novo Hamburgo, Rio Grande do Sul</li>
                 <li>Cursando Ciência da Computação na Unisinos</li>
-                <li>Formado em técnico de informática para a internet no Senac São Leopoldo</li>
+                <li>Formação técnica em desenvolvimento web no Senac São Leopoldo</li>
                 <li>Artigo publicado no Encontro Nacional de Inteligência Artificial e Computação (ENIAC)</li>
                 <li>Fez iniciação científica na Unisinos</li>
               </ul>
